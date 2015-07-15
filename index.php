@@ -1,12 +1,9 @@
 <?php
-include_once("config.php");
+
 define('INCLUDE_CHECK',true);
-require_once('config.php'); 
-require 'functions.php';
-require 'connect.php';
 include_once("name_generator/functions.php"); 
 
-$locations = array("Grease", "City Oyster", "Big City", "City Cellar" , "West Palm Beach" ,"Boca Raton" ,"Fort Lauderdale" , "Palm Beach Gardens","Orlando","Brooklyn","Delray Beach"); 
+
 
 $load = array();
  $names =names(100);
